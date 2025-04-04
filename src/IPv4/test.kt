@@ -81,6 +81,12 @@ fun main() {
         correctResult = false
     )
     test(
+        name = "when given an address with number not written in english should return false",
+        result = checkIPv4Address("210.٧.11.76"),
+        correctResult = false
+    )
+
+    test(
         name = "when given an address with a special character should return false",
         result = checkIPv4Address("50.@220.11.76"),
         correctResult = false

@@ -1,5 +1,0 @@
-package sudoku
-
-fun main(){
-
-}
