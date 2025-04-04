@@ -1,6 +1,6 @@
 package sudoku
 
-import IPv4.checkValidSudoku
+import checkValidSudoku
 
 /**
  * Task Instructions:
